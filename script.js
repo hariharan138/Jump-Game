@@ -58,7 +58,7 @@
         else if(score.innerText==="60"){
             updateRockSpeed("1.5s")
             level.innerHtml ="Well Played !!!";
-            setTimeout(() => { level . innerHtml =""},1000);
+            setTimeout(() => { level.innerHtml =""},1000);
         }
         else if (score.innerText === "200") {
             updateRockSpeed("1.3s"); 
