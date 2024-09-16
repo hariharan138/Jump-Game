@@ -53,14 +53,17 @@
 
         // Adjust game speed based on score
         if(score.innerText ==="1"){
-            updateRockSpeed("1.9s")
+            updateRockSpeed("2.4s")
+        }
+        else if(score.innerText==="20"){
+            updateRockSpeed("1.5s")
         }
         else if (score.innerText === "200") {
-            updateRockSpeed("1.5s"); 
+            updateRockSpeed("1.3s"); 
             level.innerHTML = "Level 1 Completed!!";
             setTimeout(() => { level.innerHTML = ""; }, 1000);
         } else if (score.innerText === "400") {
-            updateRockSpeed("1.2s"); 
+            updateRockSpeed("1.1s"); 
             level.innerHTML = "Level 2 Completed!!";
             setTimeout(() => { level.innerHTML = ""; }, 1000);
         } else if (score.innerText === "600") {
