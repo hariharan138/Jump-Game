@@ -47,7 +47,7 @@
         }
         //  Collision
         if (rockleft < 50 && rockleft > 0 && dinoTop > 150) {
-            // alert(`Game Over! You scored: ${score.innerText - 1}. Play Again?`);
+            alert(`Game Over! You scored: ${score.innerText - 1}. Play Again?`);
             location.reload();
         }
 
