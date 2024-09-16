@@ -53,7 +53,7 @@
 
         // Adjust game speed based on score
         if(score.innerText ==="1"){
-            updateRockSpeed("2.4s")
+            updateRockSpeed("2.1s")
         }
         else if(score.innerText==="20"){
             updateRockSpeed("1.5s")
