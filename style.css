@@ -1,0 +1,89 @@
+#score {
+  text-align: center;
+  /* border: 2px solid black; */
+  font-size: 30px; /* Increased font size */
+  color: white;
+  width: 30%;
+  font-family: 'Arial Black', sans-serif; /* Bold font */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Added shadow for better contrast */
+}
+
+body {
+  /* background: url(./1144463.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #333;
+}
+
+#game {
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  background-image: url("./41500.jpg");
+  background-size: cover;
+}
+
+#dino {
+  height: 80px;
+  width: 75px;
+  top: 225px;
+  position: relative;
+  background-image: url("./WhatsApp_Image_2024-09-15_at_13.18.23_cc1e4ca2-removebg-preview.png");
+  background-size: cover;
+}
+
+#rock {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 175px;
+  left: 550px;
+  background-image: url("./rock.png");
+  background-size: cover;
+  animation: rock 1.33s infinite;
+}
+
+ #highsc {
+  /* border: 2px solid black; */
+  width: 25%;
+color: white;
+  font-size: 35px; /* Adjusted font size */
+  /* font-family: 'Courier New', Courier, monospace; Monospace font for a different look */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Added shadow for depth */
+}
+#level{
+/* border: 2px solid black; */
+width: 40%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 35px; 
+font-family: 'Courier New', Courier, monospace; 
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+.align {
+  /* border: 2px solid red; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+height: 200px;
+width: 100%;
+}
+
+@keyframes rock {
+  0% {left: 550px;}
+  100% {left: -50px;}
+}
+
+.jump-animation {
+  animation: jump 0.5s;
+}
+
+@keyframes jump {
+  0% {top: 225px;}
+  50% {top: 75px;}
+  75% {top: 75px;}
+  100% {top: 225px;}
+}
