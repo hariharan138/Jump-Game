@@ -55,7 +55,7 @@
         if(score.innerText ==="1"){
             updateRockSpeed("2.1s")
         }
-        else if(score.innerText==="20"){
+        else if(score.innerText==="60"){
             updateRockSpeed("1.5s")
         }
         else if (score.innerText === "200") {
