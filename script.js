@@ -54,6 +54,8 @@
         // Adjust game speed based on score
         if(score.innerText ==="1"){
             updateRockSpeed("2.0s")
+            level.innerHTML = "Tap to play the Game!!";
+            setTimeout(() => { level.innerHTML = "" }, 1000)
         }
         else if (score.innerText === "200") {
             updateRockSpeed("1.5s"); 
