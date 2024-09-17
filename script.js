@@ -55,13 +55,8 @@
         if(score.innerText ==="1"){
             updateRockSpeed("2.0s")
         }
-        else if(score.innerText==="60"){
-            updateRockSpeed("1.5s")
-            level.innerHtml ="Well Played !!!";
-            setTimeout(() => { level.innerHtml =""},1000);
-        }
         else if (score.innerText === "200") {
-            updateRockSpeed("1.3s"); 
+            updateRockSpeed("1.5s"); 
             level.innerHTML = "Level 1 Completed!!";
             setTimeout(() => { level.innerHTML = "" }, 1000);
         } else if (score.innerText === "400") {
